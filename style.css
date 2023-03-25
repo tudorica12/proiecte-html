@@ -1,0 +1,36 @@
+table{
+    background-color: aqua;
+    border: 5px solid beige;
+    border-collapse: collapse;
+}
+td, th{
+    border: 20px solid black;
+}
+table{
+    text-align: center;
+    
+}
+
+li{
+    float: left;
+    padding-left: 20%;
+    
+}
+ul{
+    list-style-type: none;
+    padding-left: 0%;
+    overflow: hidden;
+    background-color: aquamarine;
+    
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: antiquewhite;
+}
+
