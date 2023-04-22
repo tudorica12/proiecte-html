@@ -1,0 +1,46 @@
+.primul{
+    color: brown;border: 5px;
+    font-style: italic;
+}
+.doilea{
+    color: blue;
+}
+table{
+    border: 5px solid black;
+    border-collapse:collapse ;
+}
+th{
+    border: 5px solid black
+}
+tr{
+    border: 5px solid black
+}
+td{
+    border: 5px solid black
+}
+li{
+    /* float: left; */
+    padding-left: 0%;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0%;
+    overflow: hidden;
+    background-color: rgb(244, 77, 5);
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 0%;
+    text-decoration: none;
+}
+li a:hover{
+   background-color: aqua;
+           
+}
+.important{
+    color: crimson;
+         font-size:300%;
+}
+
