@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js intro
+</title>
+
+
+</head>
+<body>
+  <p id="rezultat">
+    <button type="button" onclick="document.getElementById('rezultat').innerHTML=rezultat">apasa aici pentru rezultat</button>
+   <script>
+
+   let primul_numar=parseFloat(prompt("pune aici primul numar"));
+   let  doilea_numar=parseFloat(prompt("pune aici al doilea numar"));
+   let operator=(prompt("pune aici operatia"));
+   let suma=0;
+   let citire=0
+
+   if(operator=="+"){
+   rezultat=primul_numar+doilea_numar;
+   }
+    else if(operator=="-"){
+   rezultat=primul_numar-doilea_numar;
+    }
+    else if(operator=="*"){
+      rezultat=primul_numar*doilea_numar;
+    }
+    else if(operator=="/"){
+      rezultat=primul_numar/doilea_numar;
+    }
+
+   
+window.alert(rezultat);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
